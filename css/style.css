@@ -1,0 +1,9 @@
+html body {
+  margin: 0px;
+}
+
+#background {
+  background-image: url('./beautiful-chicago-skyline.jpg');
+   height: 100vh; 
+  background-size: cover;
+}
