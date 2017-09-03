@@ -56,7 +56,7 @@ body {
 
 /* Begin my custom css */
 #background {
-  background-image: url('./beautiful-chicago-skyline-compressed.jpg');
+  background-image: url('./beautiful-chicago-skyline.webp');
   background-size: cover;
   height: 100vh; 
 }
