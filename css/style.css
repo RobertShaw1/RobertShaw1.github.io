@@ -21,8 +21,6 @@ eric/tools/css/reset/)
    margin: 0;
    padding: 0;
    border: 0;
-   font-size: 100%;
-   font: inherit;
    vertical-align: baseline;
  }
  /* HTML5 display-role reset for older browsers */
@@ -50,9 +48,33 @@ eric/tools/css/reset/)
  }
  /* End reset */
 
+/*the dynamically style font based on the machine*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,Unbuntu, Cantarell,Helvetica,Neue, sans-serif;
+}
+/* End dynamic styling */
+
 /* Begin my custom css */
 #background {
   background-image: url('./beautiful-chicago-skyline.jpg');
   background-size: cover;
   height: 100vh; 
+}
+
+.animated.infinite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  /* color: lightgray; */
+  animation-duration: 5s;
+
+  background-image: -webkit-linear-gradient(top, #E0F8F7, #585858, #fff); /* For Chrome and Safari */
+  background-image:    -moz-linear-gradient(top, #E0F8F7, #585858, #fff); /* For old Fx (3.6 to 15) */
+  background-image:     -ms-linear-gradient(top, #E0F8F7, #585858, #fff); /* For pre-releases of IE 10*/
+  background-image:      -o-linear-gradient(top, #E0F8F7, #585858, #fff); /* For old Opera (11.1 to 12.0) */
+  background-image:         linear-gradient(to bottom, #E0F8F7, #585858, #fff); /* Standard syntax; must be last */
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }
