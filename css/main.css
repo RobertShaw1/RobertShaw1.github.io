@@ -133,7 +133,7 @@ html, body {
 }
 
 .child2 {
-  padding: 40px 15px 0px;
+  padding: 30px 15px 0px;
   flex-basis: auto;
   width: 400px;
   line-height: 25px;
@@ -149,6 +149,16 @@ p.intro {
 
 p a {
   color: #41b548;
+}
+
+#list {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  line-height: 25px;
+  font-size: 18px;
 }
 
 #experience {
