@@ -1,0 +1,167 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 
+(https://meyerweb.com/
+eric/tools/css/reset/)
+ * http://cssreset.com
+ * https://codepen.io/danielfarias/pen/iJecj
+ */
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed, 
+ figure, figcaption, footer, header, hgroup, 
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   vertical-align: baseline;
+ }
+
+ a {
+   color: inherit;
+   text-decoration: none;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure, 
+ footer, header, hgroup, menu, nav, section {
+   display: block;
+ }
+ body {
+   line-height: 1;
+ }
+ ol, ul {
+   list-style: none;
+ }
+ blockquote, q {
+   quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+   content: '';
+   content: none;
+ }
+ table {
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
+ /* End reset */
+
+/*the dynamically style font based on the machine*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,Unbuntu, Cantarell,Helvetica,Neue, sans-serif;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+/* End dynamic styling */
+
+/* Begin my custom css */
+/* #background {
+  background-image: url('../img/Station.jpg');
+  background-size: cover;
+  opacity: .5;
+  height: 100vh; 
+} */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.animated.infinite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  /* color: lightgray; */
+  /* animation-duration: 5s; */
+
+  /*background-image: -webkit-linear-gradient(top, #E0F8F7, #585858, #fff); /* For Chrome and Safari */
+  /*background-image:    -moz-linear-gradient(top, #E0F8F7, #585858, #fff); /* For old Fx (3.6 to 15) */
+  /*background-image:     -ms-linear-gradient(top, #E0F8F7, #585858, #fff); /* For pre-releases of IE 10*/
+  /*background-image:      -o-linear-gradient(top, #E0F8F7, #585858, #fff); /* For old Opera (11.1 to 12.0) */
+  /*background-image:         linear-gradient(to bottom, #E0F8F7, #585858, #fff); /* Standard syntax; must be last */
+  /*color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;*/
+/* } */
+
+.fullname {
+  padding-top: 200px;
+  /* color: lightgray; */
+  transition-timing-function: ease-in;
+  opacity: 1;
+  transition: opacity 5s;
+}
+
+.declaratives {
+  margin: 20px;
+  flex-basis: auto;
+  /* color: black; */
+}
+
+.declarative-item {
+  margin: 20px;
+}
+
+.fullname {
+  font-size: 60px;
+  /* font-style: oblique; */
+  /* color: #E7EED2; */
+  animation-delay: 5s;
+  animation-duration: 3s;
+}
+
+.purpose {
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px; */
+  text-decoration: underline;
+  animation-delay: 1s;
+  animation-duration: 2s;
+}
+
+.passion {
+  /* font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: 35px; */
+  /* font-style: italic; */
+  /* color: #7ECBA1; */
+  animation-delay: 2.5s;
+  animation-duration: 2s;
+}
+
+.vitality {
+  /* font-size: 35px;
+  font-family: cursive;
+  font-weight: bold;
+  color: #7ECBA1; */
+  animation-delay: 3.4s;
+  animation-duration: 1.5s;
+}
+
+.fa.fa-play-circle-o {
+  font-size: 50px;
+  padding-top: 20px;
+  animation-duration: 2s;
+}
+
+#mainEntrance {
+  animation-delay: 7s;
+}
