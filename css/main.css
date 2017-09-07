@@ -151,6 +151,14 @@ p a {
   color: #41b548;
 }
 
+.title-border {
+  background-color: #41b548;
+  height: 4px;
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #list {
   padding-top: 50px;
   display: flex;
