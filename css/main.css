@@ -81,6 +81,10 @@ html, body {
   text-align: center;
 }
 
+#lastName {
+  color: #41b548;
+}
+
 #header-subtitle {
   margin: 10px;
 }
