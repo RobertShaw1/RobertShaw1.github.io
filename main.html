@@ -14,7 +14,7 @@
   </head>
   <body>
      <div id="background">
-       
+
       <!-- START HEADER -->
       <header id="document-header" class="dark-section">
         <section class="container">
@@ -23,7 +23,7 @@
         </section>
       </header>
       <!-- END HEADER -->
-       
+
       <!-- START INTRO -->
 
       <section id="section1" class="section light-section">
@@ -83,23 +83,23 @@
               <i id="idea" class="fa fa-lightbulb-o"></i>
               <figcaption>Idea</figcaption>
             </figure>
-  
+
             <i class="fa fa-plus"></i>
-  
+
             <figure>
               <i id="great-team" class="fa fa-users"></i>
               <figcaption>Great Team</figcaption>
             </figure>
-  
+
             <i class="fa fa-plus"></i>
-  
+
             <figure>
               <i id="great-tools" class="fa fa-wrench"></i>
               <figcaption>Great Tools</figcaption>
             </figure>
-  
+
             <span id="triple-equals">===</span>
-  
+
             <figure class="art">
               <i id="art" class="fa fa-file-image-o"></i>
               <figcaption>Work of Art</figcaption>
@@ -126,10 +126,16 @@
       <footer class="footer-main">
         <div class="footer-container">Copyright
             <i class="fa fa-copyright"></i>
-            2017. Robert Shaw
+            2018
         </div>
       </footer>
       <!-- END FOOTER -->
-     </div> 
+    </div>
+    <script>
+      const _date = new Date();
+      const _year = _date.getFullYear();
+      document.getElementsByClassName('footer-container')[0].innerHTML =
+        `Copyright<i class="fa fa-copyright"></i> ${_year}. Robert Shaw`;
+    </script>
   </body>
 </html>
