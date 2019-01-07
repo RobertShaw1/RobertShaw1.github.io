@@ -1,5 +1,5 @@
 /**
- * Eric Meyer's Reset CSS v2.0 
+ * Eric Meyer's Reset CSS v2.0
 (https://meyerweb.com/
 eric/tools/css/reset/)
  * http://cssreset.com
@@ -14,8 +14,8 @@ eric/tools/css/reset/)
  dl, dt, dd, ol, ul, li,
  fieldset, form, label, legend,
  table, caption, tbody, tfoot, thead, tr, th, td,
- article, aside, canvas, details, embed, 
- figure, figcaption, footer, header, hgroup, 
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header, hgroup,
  menu, nav, output, ruby, section, summary,
  time, mark, audio, video {
    margin: 0;
@@ -29,12 +29,13 @@ eric/tools/css/reset/)
    text-decoration: none;
  }
  /* HTML5 display-role reset for older browsers */
- article, aside, details, figcaption, figure, 
+ article, aside, details, figcaption, figure,
  footer, header, hgroup, menu, nav, section {
    display: block;
  }
- body {
-   line-height: 1;
+ html, body {
+  height: 100%;
+  line-height: 1;
  }
  ol, ul {
    list-style: none;
@@ -73,12 +74,19 @@ body {
 /* End dynamic styling */
 
 /* Begin my custom css */
-/* #background {
-  background-image: url('../img/Station.jpg');
+#background {
+  /* The image used */
+  background-image: url('../img/piermanuele-sberni-1251302-unsplash.jpg');
+
+  /* Full Height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  opacity: .5;
-  height: 100vh; 
-} */
+  opacity: .7;
+}
 
 .center {
   display: flex;
@@ -164,4 +172,16 @@ body {
 
 #mainEntrance {
   animation-delay: 7s;
+}
+
+#photo-credit {
+  position: fixed;
+  bottom: 0;
+  margin: 15px;
+  color: white;
+  letter-spacing: .3px;
+}
+
+.underline {
+  text-decoration: underline;
 }
