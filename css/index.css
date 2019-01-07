@@ -172,7 +172,42 @@ body {
 
 #mainEntrance {
   animation-delay: 7s;
+  position: fixed;
+  left: 50%;
+  bottom: 1px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
 }
+
+/* Arrow & Hover Animation */
+#triple-arrow {
+  width: 75px;
+  height: 65px;
+}
+#triple-arrow:hover polygon {
+  fill: #FFF;
+  transition: all .2s ease-out;
+}
+#triple-arrow:hover polygon.arrow-bottom {
+  -webkit-transform: translateY(-18px);
+  transform: translateY(-18px);
+}
+#triple-arrow:hover polygon.arrow-top {
+  -webkit-transform: translateY(18px);
+  transform: translateY(18px);
+}
+
+polygon {
+  fill: #FFF;
+  transition: all .2s ease-out;
+}
+polygon.arrow-middle {
+  opacity: 0.75;
+}
+polygon.arrow-top {
+  opacity: 0.5;
+}
+
 
 #photo-credit {
   position: fixed;
