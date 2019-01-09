@@ -74,20 +74,6 @@ body {
 /* End dynamic styling */
 
 /* Begin my custom css */
-#background {
-  /* The image used */
-  background-image: url('../img/piermanuele-sberni-1251302-unsplash.jpg');
-
-  /* Full Height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: .7;
-}
-
 .center {
   display: flex;
   justify-content: center;
@@ -208,13 +194,13 @@ polygon.arrow-top {
   opacity: 0.5;
 }
 
-
 #photo-credit {
   position: fixed;
   bottom: 0;
   margin: 15px;
   color: white;
   letter-spacing: .3px;
+  font-size: smaller;
 }
 
 .underline {
